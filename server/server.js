@@ -76,7 +76,7 @@ app.get('/greet', function (req, res) {
            .gather({
              action:'/fizzbuzz',
              method: 'GET',
-             timout: 30,
+             timeout: 30,
              finishOnKey: '#'
            }, function () {
                 this.say({ voice: 'woman' }, 'Please enter a number, then press pound');
